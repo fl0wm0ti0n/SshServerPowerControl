@@ -1,0 +1,338 @@
+[
+    {
+        "id":1,
+        "childofid":null,
+        "parentofids":[null],
+        "infosupdatedat":"2021-11-27",
+        "serverinfos":{
+            "hostname":"server01",
+            "description":"",
+            "status":"ready",
+            "servertype":"physisch",
+            "category":"vm-host",
+            "productname":"ProLiant DL380 G7",
+            "Model":"589150-421",
+            "Serialnumber":"",
+            "managementtype":"ILO3"
+        },
+        "os":{
+            "osname":"",
+            "osversion":"",
+            "osssh":{            
+                "sshon":true,
+                "ip":"10.0.0.3",
+                "port":22,
+                "sshoption":"",
+                "user":"",
+                "pw":"",
+                "offcommand":"shutdown -t now",
+                "restartcommand":"shutdown -r now"
+            }
+        },
+        "network":{
+            "interfaces":[
+                {
+                    "ifdescription":"management port",
+                    "hwmodule":"onboard",
+                    "productname":"",
+                    "network":"lan",
+                    "dhcp":false,
+                    "ipv4":"10.0.0.155",
+                    "ipv6":"",
+                    "gw4":"10.0.0.1",
+                    "gw6":"",
+                    "dns4":"10.0.0.1",
+                    "dn6":"",
+                    "mac":""
+                }
+            ]
+        },
+        "hardware":{
+            "cpuname":"Intel Xeon X5675",
+            "cpucount":"2",
+            "cpucorespercpu":"6",
+            "hyperthreading":true,
+            "cpumhz":"3067",
+            "ramname":"TODO",
+            "ddrversion":"ddr3",
+            "ramtype":"PC3-10600R",
+            "rammodulesizeingb":"16",
+            "rammodulecount":"7",
+            "storage":[
+                {                        
+                    "storageid":1,
+                    "childofstorageid":null,
+                    "parentofstorageids":[2,3,4],
+                    "diskname":"Patriot Burst",
+                    "disktype":"ssd",
+                    "disksize":"240GB",
+                    "raidtype":"RAID1",
+                    "mountpoint":"",
+                    "networkshare":""
+                },
+                {                        
+                    "storageid":2,
+                    "childofstorageid":1,
+                    "parentofstorageids":[null],
+                    "diskname":"Patriot Burst",
+                    "disktype":"ssd",
+                    "disksize":"240GB",
+                    "raidtype":"",
+                    "mountpoint":"",
+                    "networkshare":""
+                },
+                {                        
+                    "storageid":3,
+                    "childofstorageid":1,
+                    "parentofstorageids":[null],
+                    "diskname":"Patriot Burst",
+                    "disktype":"ssd",
+                    "disksize":"240GB",
+                    "raidtype":"",
+                    "mountpoint":"",
+                    "networkshare":""
+                },
+                {                        
+                    "storageid":4,
+                    "childofstorageid":1,
+                    "parentofstorageids":[null],
+                    "diskname":"Patriot Burst",
+                    "disktype":"ssd",
+                    "disksize":"240GB",
+                    "raidtype":"",
+                    "mountpoint":"",
+                    "networkshare":""
+                }
+            ],
+            "PCI1":"",
+            "PCI2":"",
+            "PCI3":"",
+            "PCI4":"",
+            "Powersupplycount":"2",
+            "maxwatts":"",
+            "USV":true,
+            "placeholder1":"",
+            "placeholder2":""
+        },
+        "firmware":{
+            "managementver":"",
+            "uefiver":""
+            },
+        "ssh":{            
+            "sshon":true,
+            "ip":"10.0.0.155",
+            "port":22,
+            "sshoption":"-oHostKeyAlgorithms=+ssh-dss",
+            "user":"admin",
+            "pw":"1234",
+            "oncommand":"power on",
+            "offcommand":"power off",
+            "restartcommand":"power reset",
+            "healthcommand":"show system1"
+        },
+        "placeholder1":"",
+        "placeholder2":""
+    },  
+    {
+        "id":2,
+        "childofid":null,
+        "parentofids":[null],
+        "infosupdatedat":"2021-11-27",
+        "serverinfos":{
+            "hostname":"server02",
+            "description":"",
+            "status":"ready",
+            "servertype":"physisch",
+            "category":"farm",
+            "productname":"IBM SERVER SYSTEM X3850",
+            "Model":"7143B5G",
+            "Serialnumber":"",
+            "managementtype":"IMM2"
+        },
+        "os":{
+            "osname":"",
+            "osversion":"",
+            "osssh":{            
+                "sshon":false,
+                "ip":"10.0.0.3",
+                "port":22,
+                "sshoption":"",
+                "user":"",
+                "pw":"",
+                "offcommand":"shutdown -t now",
+                "restartcommand":"shutdown -r now"
+            }
+        },
+        "network":{
+            "interfaces":[
+                {
+                    "ifdescription":"management port",
+                    "hwmodule":"onboard",
+                    "productname":"",
+                    "network":"lan",
+                    "dhcp":false,
+                    "ipv4":"10.0.0.188",
+                    "ipv6":"",
+                    "gw4":"10.0.0.1",
+                    "gw6":"",
+                    "dns4":"10.0.0.1",
+                    "dn6":"",
+                    "mac":""
+                }
+            ]
+        },
+        "hardware":{
+            "cpuname":"Intel Xeon E7-8867L",
+            "cpucount":"4",
+            "cpucorespercpu":"10",
+            "hyperthreading":true,
+            "cpumhz":"2133",
+            "ramname":"samsung",
+            "ddrversion":"ddr3",
+            "ramtype":"PC3 8500R",
+            "rammodulesizeingb":"16gb",
+            "rammodulecount":"44",
+            "storage":[
+                {                        
+                    "storageid":1,
+                    "childofstorageid":null,
+                    "parentofstorageids":[null],
+                    "diskname":"TODO",
+                    "disktype":"ssd",
+                    "disksize":"1TB",
+                    "raidtype":"",
+                    "mountpoint":"",
+                    "networkshare":""
+                }
+            ],
+            "PCI1":"Intel(R) Gigabit ET Dual Port Server Adapter",
+            "PCI2":"",
+            "PCI3":"",
+            "PCI4":"",
+            "Powersupplycount":"2",
+            "maxwatts":"1200",
+            "USV":false,
+            "placeholder1":"",
+            "placeholder2":""
+        },
+        "firmware":{
+            "managementver":"",
+            "uefiver":""
+            },
+        "ssh":{            
+            "sshon":true,
+            "ip":"10.0.0.188",
+            "port":22,
+            "sshoption":"-oStrictHostKeyChecking=no",
+            "user":"admin",
+            "pw":"1234",
+            "oncommand":"power on",
+            "offcommand":"power off",
+            "restartcommand":"power cycle",
+            "healthcommand":"syshealth"
+        },
+        "placeholder1":"",
+        "placeholder2":""
+    },
+    {
+        "id":3,
+        "childofid":null,
+        "parentofids":[null],
+        "infosupdatedat":"2021-11-27",
+        "serverinfos":{
+            "hostname":"server03",
+            "description":"",
+            "status":"ready",
+            "servertype":"physisch",
+            "category":"farm",
+            "productname":"DELL PowerEdge R910 (Revision II)",
+            "Model":"",
+            "Serialnumber":"",
+            "managementtype":"IDRAC6"
+        },
+        "os":{
+            "osname":"",
+            "osversion":"",
+            "osssh":{            
+                "sshon":false,
+                "ip":"10.0.0.3",
+                "port":22,
+                "sshoption":"",
+                "user":"",
+                "pw":"",
+                "offcommand":"shutdown -t now",
+                "restartcommand":"shutdown -r now"
+            }
+        },
+        "network":{
+            "interfaces":[
+                {
+                    "ifdescription":"management port",
+                    "hwmodule":"onboard",
+                    "productname":"",
+                    "network":"lan",
+                    "dhcp":false,
+                    "ipv4":"10.0.0.200",
+                    "ipv6":"",
+                    "gw4":"10.0.0.1",
+                    "gw6":"",
+                    "dns4":"10.0.0.1",
+                    "dn6":"",
+                    "mac":""
+                }
+            ]
+        },
+        "hardware":{
+            "cpuname":"Intel Xeon E7-8867L",
+            "cpucount":"4",
+            "cpucorespercpu":"10",
+            "hyperthreading":true,
+            "cpumhz":"2270",
+            "ramname":"HYNIX HMT42GR7AMR4C-G7",
+            "ddrversion":"ddr3",
+            "ramtype":"PC3-8500R",
+            "rammodulesizeingb":"16gb",
+            "rammodulecount":"32",
+            "storage":[
+                {                        
+                    "storageid":1,
+                    "childofstorageid":null,
+                    "parentofstorageids":[null],
+                    "diskname":"TODO",
+                    "disktype":"ssd",
+                    "disksize":"240GB",
+                    "raidtype":"",
+                    "mountpoint":"",
+                    "networkshare":""
+                }
+            ],
+            "PCI1":"Intel(R) Gigabit ET Dual Port Server Adapter",
+            "PCI2":"",
+            "PCI3":"",
+            "PCI4":"",
+            "Powersupplycount":"2",
+            "maxwatts":"2000",
+            "USV":false,
+            "placeholder1":"",
+            "placeholder2":""
+        },
+        "firmware":{
+            "managementver":"",
+            "uefiver":""
+            },
+        "ssh":{            
+            "sshon":true,
+            "ip":"10.0.0.200",
+            "port":22,
+            "sshoption":"-oStrictHostKeyChecking=no",
+            "user":"admin",
+            "pw":"1234",
+            "oncommand":"racadm serveraction powerup",
+            "offcommand":"racadm serveraction powerdown",
+            "restartcommand":"racadm serveraction hardreset",
+            "healthcommand":"show system1"
+        },
+        "placeholder1":"",
+        "placeholder2":""
+    }
+]
